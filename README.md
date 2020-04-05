@@ -47,15 +47,10 @@ To classify software quality attributes I use the common used model with the acr
 
 * **Success Scenario:** The student selects a course and evaluates the individual categories for the course.
 
-### Update or add University/Departments/Study programmes/Courses
+### Update fields (e.g. Universities, Courses, ...)
 * **Primary Actor:**: Administrator
 
-* **Success Scenario:** The administrator creates a new University and inserts relevant information
-
-### Update or add Departments/Study programmes/Courses
-* **Primary Actor:**: Student or Administrator
-
-* **Success Scenario:** The user creates a new Departments/Study programmes/Courses based on an existing University and inserts relevant information for each area.
+* **Success Scenario:** The administrator creates a new field and inserts relevant information
 
 ### Receive course recommendations
 * **Primary Actor:** Student
