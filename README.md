@@ -26,6 +26,10 @@ To classify software quality attributes I use the common used model with the acr
   
 ## Use Cases
 
+<div style="float:left;margin:0 10px 0 0">
+  <img src="UseCaseDiagramScreenshot.png" width="400">
+</div>
+
 ### Browse Courses
 **Primary Actor:** Student
 
