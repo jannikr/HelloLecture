@@ -53,7 +53,12 @@ To classify software quality attributes I use the common used model with the acr
 
 **Success Scenario:** The user creates a new Departments/Study programmes/Courses based on an existing University and inserts relevant information for each area.
 
+### Receive course recommendations
+**Primare Actor:** Student
 
+**Success Scenario:** Based on finished courses the system gives advices for next chapters.
+
+**Extension:** If there are no finished courses start with base courses.
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
