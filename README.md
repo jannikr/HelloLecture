@@ -23,6 +23,18 @@ To classify software quality attributes I use the common used model with the acr
 
 * **Supportability** (Testability, Extensibility, Serviceability, Configurability)
   * The system should be updatable
+  
+## Use Cases
+
+### Find Course
+**Primary Actor:** Student
+
+**Success Scenario:** The student searches for his or her university and department. An overview of the available courses then appears.
+
+### Search Course
+**Primary Actor:** Student
+
+**Success Scenario:** The student searches for a course name and gets a general (with other universities) or specific (university depending on profile) overview  of courses that match his/her search.
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
