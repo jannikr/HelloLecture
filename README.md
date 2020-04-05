@@ -7,22 +7,22 @@ The software Hello Lecture is designed to help students to make the right course
 ## Requirements
 To classify software quality attributes I use the common used model with the acronym FURPS.
 
-1. **Functionality** (Capability, Reusability, Security)
-* The system must maintain a library of universities, departments, study programmes (e.g. mathematics, biology, ...) and courses
-* The system must allow users to browse through the above mentioned areas
-* The system must allow users to give feedback on selected courses
+* **Functionality** (Capability, Reusability, Security)
+  * The system must maintain a library of universities, departments, study programmes (e.g. mathematics, biology, ...) and courses
+  * The system must allow users to browse and provide informations through the above mentioned areas
+  * The system must allow users to give feedback on selected courses
 
-2. **Usability** (Human Factors, Aesthetics, Consistency, Documenation)
-* The system should do...
+* **Usability** (Human Factors, Aesthetics, Consistency, Documenation)
+  * The system should be easy to control via touchdisplays
 
-3. **Reliability** (Availability, Failure Rate & Duration, Predictability)
-* The system should do...
+* **Reliability** (Availability, Failure Rate & Duration, Predictability)
+  * The system should be available 24/7
 
-4. **Performance** (Speed, Efficiency, Resource Consuption, Scalability)
-* The system should do...
+* **Performance** (Speed, Efficiency, Resource Consuption, Scalability)
+  * The system should be fast for slow smartphones
 
-5. **Supportability** (Testability, Extensibility, Serviceability, Configurability)
-* The system should do...
+* **Supportability** (Testability, Extensibility, Serviceability, Configurability)
+  * The system should be updatable
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
