@@ -26,7 +26,7 @@ To classify software quality attributes I use the common used model with the acr
   
 ## Use Cases
 
-### Find Course
+### Browse Courses
 **Primary Actor:** Student
 
 **Success Scenario:** The student searches for his or her university and department. An overview of the available courses then appears.
@@ -35,6 +35,16 @@ To classify software quality attributes I use the common used model with the acr
 **Primary Actor:** Student
 
 **Success Scenario:** The student searches for a course name and gets a general (with other universities) or specific (university depending on profile) overview  of courses that match his/her search.
+
+### Rate Course
+**Primary Actor:**: Student
+
+**Success Scenario:** The student selects a course and evaluates the individual categories for the course.
+
+### Update University/Departments/Study programmes/Courses
+**Primary Actor:**: Administrator
+
+**Success Scenario:** The administrator selects a course and edits the informations
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
