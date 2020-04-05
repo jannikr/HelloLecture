@@ -31,43 +31,43 @@ To classify software quality attributes I use the common used model with the acr
 </div>
 
 ### Browse Courses
-**Primary Actor:** Student
+* **Primary Actor:** Student
 
-**Success Scenario:** The student searches for his or her university and department. An overview of the available courses then appears.
+* **Success Scenario:** The student searches for his or her university and department. An overview of the available courses then appears.
 
 ### Search Course
-**Primary Actor:** Student
+* **Primary Actor:** Student
 
-**Success Scenario:** The student searches for a course name and gets a general (with other universities) or specific (university depending on profile) overview  of courses that match his/her search.
+* **Success Scenario:** The student searches for a course name and gets a general (with other universities) or specific (university depending on profile) overview  of courses that match his/her search.
 
-**Extension:** If the searched course is not available, the user could add new data.
+* **Extension:** If the searched course is not available, the user could add new data.
 
 ### Rate Course
-**Primary Actor:**: Student
+* **Primary Actor:**: Student
 
-**Success Scenario:** The student selects a course and evaluates the individual categories for the course.
+* **Success Scenario:** The student selects a course and evaluates the individual categories for the course.
 
 ### Update or add University/Departments/Study programmes/Courses
-**Primary Actor:**: Administrator
+* **Primary Actor:**: Administrator
 
-**Success Scenario:** The administrator creates a new University and inserts relevant information
+* **Success Scenario:** The administrator creates a new University and inserts relevant information
 
 ### Update or add Departments/Study programmes/Courses
-**Primary Actor:**: Student or Administrator
+* **Primary Actor:**: Student or Administrator
 
-**Success Scenario:** The user creates a new Departments/Study programmes/Courses based on an existing University and inserts relevant information for each area.
+* **Success Scenario:** The user creates a new Departments/Study programmes/Courses based on an existing University and inserts relevant information for each area.
 
 ### Receive course recommendations
-**Primary Actor:** Student
+* **Primary Actor:** Student
 
-**Success Scenario:** Based on finished courses the system gives advices for next chapters.
+* **Success Scenario:** Based on finished courses the system gives advices for next chapters.
 
-**Extension:** If there are no finished courses start with base courses.
+* **Extension:** If there are no finished courses start with base courses.
 
 ### Save courses
-**Primary Actor:** Student
+* **Primary Actor:** Student
 
-**Success Scenario:** After the student selected at least one course as favourite, it appears on his/her personal page.
+* **Success Scenario:** After the student selected at least one course as favourite, it appears on his/her personal page.
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
