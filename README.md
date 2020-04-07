@@ -64,6 +64,10 @@ To classify software quality attributes I use the common used model with the acr
 
 * **Success Scenario:** After the student selected at least one course as favourite, it appears on his/her personal page.
 
+## Domain Modeling
+
+coming soon...
+
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
 * LinkedIn Learning Course: Programming Foundations - Object-Oriented Design
