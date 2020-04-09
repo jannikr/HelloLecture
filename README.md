@@ -88,7 +88,7 @@ The next step is to check for duplicates:
 
 * Student
 * Administrator
-* Profile
+* ~~Profile~~ (depends on a student)
 * ~~Page~~ (depends on a student)
 * University
 * Course
@@ -98,6 +98,14 @@ The next step is to check for duplicates:
 * ~~System~~
 * ~~Information~~ (depends on Course, University, Department)
 * ~~Data~~ (depends on Course, University, Department)
+
+### Identifying class relations
+
+This diagram is **not** a normal class diagram. It only shows the relationships between the individual classes.
+
+<div style="float:left;margin:0 10px 0 0">
+  <img src="ClassRelations.png" width="400">
+</div>
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
