@@ -33,40 +33,73 @@ To classify software quality attributes I use the common used model with the acr
 ### Browse Courses
 * **Primary Actor:** Student
 
-* **Success Scenario:** The student searches for his or her university and department. An overview of the available courses then appears.
-
+* **Success Scenario:** The student searches for his or her *university* and *department*. An overview of the available *courses then appears.
+*
 ### Search Course
 * **Primary Actor:** Student
 
-* **Success Scenario:** The student searches for a course name and gets a general (with other universities) or specific (university depending on profile) overview  of courses that match his/her search.
+* **Success Scenario:** The *student* searches for a *course* name and gets a general (with other universities) or specific (*university* depending on *profile*) overview  of *courses* that match his/her search.
 
-* **Extension:** If the searched course is not available, the user could add new data.
+* **Extension:** If the searched *course* is not available, the user could add new *data*.
 
 ### Rate Course
 * **Primary Actor:**: Student
 
-* **Success Scenario:** The student selects a course and evaluates the individual categories for the course.
+* **Success Scenario:** The *student* selects a *course* and evaluates the individual *categories* for the *course*.
 
 ### Update fields (e.g. Universities, Courses, ...)
 * **Primary Actor:**: Administrator
 
-* **Success Scenario:** The administrator creates a new field and inserts relevant information
+* **Success Scenario:** The *administrator* creates a new *field* and inserts relevant *information*
 
 ### Receive course recommendations
 * **Primary Actor:** Student
 
-* **Success Scenario:** Based on finished courses the system gives advices for next chapters.
+* **Success Scenario:** Based on finished *courses* the *system* gives advices for next *chapters*.
 
-* **Extension:** If there are no finished courses start with base courses.
+* **Extension:** If there are no finished *courses* start with base *courses*.
 
 ### Save courses
 * **Primary Actor:** Student
 
-* **Success Scenario:** After the student selected at least one course as favourite, it appears on his/her personal page.
+* **Success Scenario:** After the *student* selected at least one *course* as favourite, it appears on his/her personal *page*.
 
-## Domain Modeling
 
-coming soon...
+## Domain Modeling (From Anaysis to Desgin)
+
+### Identifying the objects
+
+These nouns are part of the use case scenarios and could be classes of Hello Lecture:
+
+* Student
+* Administrator
+* Profile
+* Page
+* University
+* Course
+* Department
+* Category
+* Field
+* System
+* Chapters
+* Information
+* Data
+
+The next step is to check for duplicates:
+
+* Student
+* Administrator
+* Profile
+* Page
+* University
+* Course
+* Department
+* Category
+* Field
+* System
+* Chapters
+* ~~Information~~ depends on Course, University, Department
+* ~~Data~~
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
