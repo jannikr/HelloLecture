@@ -55,7 +55,7 @@ To classify software quality attributes I use the common used model with the acr
 ### Receive course recommendations
 * **Primary Actor:** Student
 
-* **Success Scenario:** Based on finished *courses* the *system* gives advices for next *chapters*.
+* **Success Scenario:** Based on finished *courses* the *system* gives advices for next *courses*.
 
 * **Extension:** If there are no finished *courses* start with base *courses*.
 
@@ -81,7 +81,6 @@ These nouns are part of the use case scenarios and could be classes of Hello Lec
 * Category
 * Field
 * System
-* Chapters
 * Information
 * Data
 
@@ -90,16 +89,15 @@ The next step is to check for duplicates:
 * Student
 * Administrator
 * Profile
-* Page
+* ~~Page~~ (depends on a student)
 * University
 * Course
 * Department
-* Category
-* Field
-* System
-* Chapters
-* ~~Information~~ depends on Course, University, Department
-* ~~Data~~
+* ~~Category~~ (depends on Course)
+* ~~Field~~ (depends on Course, University, Department)
+* ~~System~~
+* ~~Information~~ (depends on Course, University, Department)
+* ~~Data~~ (depends on Course, University, Department)
 
 ## Sources of information
 * Software Engineering I & II at Beuth University of Applied Sciences
